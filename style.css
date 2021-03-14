@@ -24,18 +24,18 @@ body {
     justify-content: center;
   }
   .head {
-    background-color: hsl(228, 56%, 26%);
+    background-color: #1d2c67;
     width: 90%;
-    height: 12rem;
+    height: 11rem;
     border-radius: 10px;
     border-top-right-radius: 120px;
   }
   .logo {
-    margin: 3rem 0 0 3.5rem;
+    margin: 2rem 0 0 3.5rem;
   }
   .img {
     display: flex;
-    margin-left: 3rem;
+    margin: 0 0 0 3rem;
   }
   .btn{
       display: flex;
@@ -46,5 +46,13 @@ body {
       margin: 2rem .5rem 1rem .5rem;
       border-radius: 10px;
       background-color:  hsl(229, 57%, 11%);
+  }
+  .main{
+    margin-top: 1rem;
+    width: 90%;
+    height: 10rem;
+    background-color:#1d2c67 ;
+    border-radius: 10px;
+    color: white;
   }
 }
