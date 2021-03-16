@@ -63,7 +63,7 @@ body {
     color: #fff;
   }
   /* Range slider Styling */
-  .left{
+  .notfic{
     margin-top: 2rem;
   }
   #range{
@@ -82,5 +82,30 @@ body {
     width: .8rem !important;
     border-radius: 50%;
     background-color: #fff;
+  }
+  /* End of slider style */
+  .space{
+    margin: 0 1.5rem 0 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left{
+    margin: auto;
+    width: 50%;
+    height: 5rem;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #848794;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: .8rem ;
+  }
+  #remaining{
+    font-size: 2.7rem;
+    margin-right: .5rem;
+    color: #0c122c;
   }
 }
