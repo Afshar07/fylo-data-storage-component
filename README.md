@@ -7,7 +7,7 @@ The real struggle was the range slider! i didn't know how to style it but i foun
 
 The rest was simple Flexbox, css and that's it!
 
-PS: I'm starting to write my own README.md files to log my project issues/My notes to my self.
+PS: I'm starting to write my own README.md files to log my project issues/Notes to my self.
 ## Note to self
 Well, i think this is the last simple challenge i'm gonna do, this feels awfully simple and boring, and i code when i'm bored, so this is not helping!
 
