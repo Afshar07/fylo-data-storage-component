@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 /* Reset */
 html {
   width: 100%;
@@ -16,7 +16,7 @@ body {
     background-image: url(images/bg-mobile.png);
     background-repeat: no-repeat;
     background-position: center center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
   }
   .container {
     height: 100%;
@@ -39,58 +39,64 @@ body {
     display: flex;
     margin: 0 0 0 3rem;
   }
-  .btn{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 2.5rem;
-      height: 2.5rem;
-      margin: 2rem .5rem 1rem .5rem;
-      border-radius: 10px;
-      background-color:  #0c122c;
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2rem 0.5rem 1rem 0.5rem;
+    border-radius: 10px;
+    background-color: #0c122c;
   }
-  .main{
+  .main {
     margin-top: 1rem;
     width: 90%;
     height: 10rem;
-    background-color:#1d2c67 ;
+    background-color: #1d2c67;
     border-radius: 10px;
     color: #b0b3b9;
     text-align: center;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-  #storage{
+  #storage {
     color: #fff;
   }
   /* Range slider Styling */
-  .notfic{
+  .notfic {
     margin-top: 2rem;
   }
-  #range{
+  #range {
     -webkit-appearance: none;
     width: 85%;
   }
   #range::-webkit-slider-runnable-track {
-    height: .8rem;
+    height: 0.8rem;
     background-color: #1d2c67;
-    background-image: linear-gradient(to right, #ffa399 10%, #ff4d97 78%, #0c122c 80%,#0c122c 100%) ;
+    background-image: linear-gradient(
+      to right,
+      #ffa399 10%,
+      #ff4d97 78%,
+      #0c122c 80%,
+      #0c122c 100%
+    );
     border-radius: 20px !important;
   }
-  #range::-webkit-slider-thumb{
+  #range::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: .8rem !important;
-    width: .8rem !important;
+    height: 0.8rem !important;
+    width: 0.8rem !important;
     border-radius: 50%;
     background-color: #fff;
   }
   /* End of slider style */
-  .space{
+  .space {
     margin: 0 1.5rem 0 1.5rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
   }
-  .left{
+  .left {
     margin: auto;
     width: 50%;
     height: 5rem;
@@ -101,48 +107,51 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: .8rem ;
+    font-size: 0.8rem;
   }
-  #remaining{
+  #remaining {
     font-size: 2.7rem;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     color: #0c122c;
+  }
+  .arrow-left{
+    display: none;
   }
 }
 
 /* Desktop Design */
-@media only screen and (min-width: 376px){
-  body{
+@media only screen and (min-width: 376px) {
+  body {
     background-color: #0c122c;
     background-image: url(images/bg-desktop.png);
-    background-position: center  bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
   }
-  .container{
+  .container {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .head{
-    background-color:#1d2c67;
+  .head {
+    background-color: #1d2c67;
     margin-top: -4rem;
     height: 12rem;
     width: 20rem;
     border-radius: 10px;
     border-top-right-radius: 110px;
   }
-  .logo{
+  .logo {
     margin: 2rem 0 0 2rem;
   }
-  .img{
+  .img {
     display: flex;
-    margin: 1rem 0 0 1.7rem;
+    margin: 2rem 0 0 1.7rem;
   }
-  .btn{
+  .btn {
     background-color: #0c122c;
     width: 2.7rem;
     margin-right: 1rem;
@@ -152,8 +161,9 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .main{
-    margin: -2rem 0 0 2rem;
+  .main {
+    margin: -2.5rem 0 0 2rem;
+    padding-top: 1rem;
     width: 40rem;
     height: 10rem;
     background-color: #1d2c67;
@@ -161,31 +171,77 @@ body {
     display: flex;
     flex-direction: column;
     color: #848794;
+    position: relative;
   }
-  .notfic{
+  .notfic {
     margin-left: 3rem;
+    color: #b2b0da
   }
-  #storage{
+  #storage {
     color: #fff;
   }
   /* Start Range Slider Styles */
-  #range{
+  #range {
     -webkit-appearance: none;
     width: 85%;
     align-self: center;
   }
   #range::-webkit-slider-runnable-track {
-    height: .8rem;
+    height: 0.8rem;
     background-color: #1d2c67;
-    background-image: linear-gradient(to right, #ffa399 10%, #ff4d97 78%, #0c122c 80%,#0c122c 100%) ;
+    background-image: linear-gradient(
+      to right,
+      #ffa399 10%,
+      #ff4d97 78%,
+      #0c122c 80%,
+      #0c122c 100%
+    );
     border-radius: 20px !important;
   }
-  #range::-webkit-slider-thumb{
+  #range::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: .8rem !important;
-    width: .8rem !important;
+    height: 0.8rem !important;
+    width: 0.8rem !important;
     border-radius: 50%;
     background-color: #fff;
   }
   /* End of range Slider Styles */
+  .space {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem 0 2.8rem;
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  .left {
+    position: absolute;
+    border-radius: 10px;
+    top: -2rem;
+    right: 2rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    font-size: .8rem;
+  }
+  #remaining{
+    color: #000000;
+    font-size: 2.5rem;
+    margin-right: .7rem;
+  }
+  .arrow-left{
+    position: absolute;
+    top: -.5rem;
+    right: 2rem;
+    width: 0; 
+    height: 0; 
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent; 
+    border-right: 2rem solid #fff; 
+  }
+
 }
