@@ -3,7 +3,7 @@
 ![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
 ## Project Log
-The real struggle was the range slider! i didn't know how to style it but i found many solutions with a simple search. i didn't test it on firefox , edge and etc, but in google chrome it looks fine.
+The real struggle was the range slider! i didn't know how to style it but i found many solutions with a simple search. i didn't test it on firefox , edge and etc, but it looks fine in google chrome, so i think it's good on edge too since it's using Chromium for engine.
 The rest was simple Flexbox, css and that's it!
 PS: I'm starting to write my own README.md files to log my project issues/My notes to my self.
 ## Note to self
