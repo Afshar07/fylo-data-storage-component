@@ -158,5 +158,34 @@ body {
     height: 10rem;
     background-color: #1d2c67;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #848794;
   }
+  .notfic{
+    margin-left: 3rem;
+  }
+  #storage{
+    color: #fff;
+  }
+  /* Start Range Slider Styles */
+  #range{
+    -webkit-appearance: none;
+    width: 85%;
+    align-self: center;
+  }
+  #range::-webkit-slider-runnable-track {
+    height: .8rem;
+    background-color: #1d2c67;
+    background-image: linear-gradient(to right, #ffa399 10%, #ff4d97 78%, #0c122c 80%,#0c122c 100%) ;
+    border-radius: 20px !important;
+  }
+  #range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: .8rem !important;
+    width: .8rem !important;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  /* End of range Slider Styles */
 }
