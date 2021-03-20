@@ -62,7 +62,7 @@ body {
   #storage {
     color: #fff;
   }
-  /* Range slider Styling */
+  /* Range slider Stylingz */
   .notfic {
     margin-top: 2rem;
   }
@@ -185,7 +185,13 @@ body {
     -webkit-appearance: none;
     width: 85%;
     align-self: center;
+    background:transparent;
   }
+  #range:focus{
+    outline: none;
+  }
+
+  /* Chrome Style */
   #range::-webkit-slider-runnable-track {
     height: 0.8rem;
     background-color: #1d2c67;
@@ -205,6 +211,27 @@ body {
     border-radius: 50%;
     background-color: #fff;
   }
+  /* End of chorme style */
+  /* Firefox Style */
+    #range::-moz-range-track{
+      border-radius: 20px;
+      height: 0.8rem;
+      background-color: #1d2c67;
+      background-image: linear-gradient(
+        to right,
+        #ffa399 10%,
+        #ff4d97 78%,
+        #0c122c 80%,
+        #0c122c 100%
+      );
+    }
+    #range::-moz-range-thumb{
+      height: 0.8rem !important;
+      width: 0.8rem !important;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+  /* End of Firefox Style */
   /* End of range Slider Styles */
   .space {
     color: #fff;
